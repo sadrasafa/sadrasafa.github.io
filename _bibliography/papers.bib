@@ -1,13 +1,30 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+
+@article{safadoust2022depthpp,
+  title={DepthP+P: Metric Accurate Monocular Depth Estimation using Planar and Parallax},
+  author={Safadoust, Sadra and G{\"u}ney, Fatma},
+  journal={arXiv preprint},
+  year={2023},
+  abstract={Current self-supervised monocular depth estimation methods are mostly based on estimating a rigid-body motion representing camera motion. These methods suffer from the well-known scale ambiguity problem in their predictions. We propose DepthP+P, a method that learns to estimate outputs in metric scale by following the traditional planar parallax paradigm. We first align the two frames using a common ground plane which removes the effect of the rotation component in the camera motion. With two neural networks, we predict the depth and the camera translation, which is easier to predict alone compared to predicting it together with rotation. By assuming a known camera height, we can then calculate the induced 2D image motion of a 3D point and use it for reconstructing the target image in a self-supervised monocular approach. We perform experiments on the KITTI driving dataset and show that the planar parallax approach, which only needs to predict camera translation, can be a metrically accurate alternative to the current methods that rely on estimating 6DoF camera motion.},
+  preview={depthpp.png},
+  pdf={https://arxiv.org/pdf/2301.02092.pdf},
+  arxiv={2301.02092},
+  selected={true}
+}
+
 
 @article{akan2022slamp3d,
   title={Stochastic Video Prediction with Structure and Motion},
   author={Akan, Adil Kaan and Safadoust, Sadra and Erdem, Erkut and Erdem, Aykut and G{\"u}ney, Fatma},
   journal={arXiv preprint},
-  year={2022}
+  year={2022},
+  abstract={While stochastic video prediction models enable future prediction under uncertainty, they mostly fail to model the complex dynamics of real-world scenes. For example, they cannot provide reliable predictions for scenes with a moving camera and independently moving foreground objects in driving scenarios. The existing methods fail to fully capture the dynamics of the structured world by only focusing on changes in pixels. In this paper, we assume that there is an underlying process creating observations in a video and propose to factorize it into static and dynamic components. We model the static part based on the scene structure and the ego-motion of the vehicle, and the dynamic part based on the remaining motion of the dynamic objects. By learning separate distributions of changes in foreground and background, we can decompose the scene into static and dynamic parts and separately model the change in each. Our experiments demonstrate that disentangling structure and motion helps stochastic video prediction, leading to better future predictions in complex driving scenarios on two real-world driving datasets, KITTI and Cityscapes.},
+  preview={slamp3d2.gif},
+  pdf={https://arxiv.org/pdf/2203.10528.pdf},
+  arxiv={2203.10528},
+  selected={true}
 }
 
 
@@ -20,84 +37,6 @@
   preview={monodepthseg.gif},
   pdf={https://arxiv.org/pdf/2110.11275.pdf},
   website={https://kuis-ai.github.io/monodepthseg},
-  arxiv={2110.11275}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+  arxiv={2110.11275},
+  selected={true}}
+  
