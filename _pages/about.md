@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student, <a href='https://www.ku.edu.tr/'>Koç University</a>.
+subtitle: <b>PhD Student</b>, <a href='https://www.ku.edu.tr/'>Koç University</a>.
 
 profile:
   align: right
