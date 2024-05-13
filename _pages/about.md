@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hiya! I am a first-year PhD student in [KUIS AI Lab](https://ai.ku.edu.tr/) at Koç University, working with [Asst. Prof. Fatma Guney](https://mysite.ku.edu.tr/fguney/). I am interested in 3D computer vision and scene understanding.
+Hiya! I am a first-year PhD student in [KUIS AI Lab](https://ai.ku.edu.tr/) at Koç University, working with [Asst. Prof. Fatma Guney](https://mysite.ku.edu.tr/fguney/). I am interested in 3D computer vision.
 
  I completed my Master's degree in Computer Science and Engineering at Koç University and my Bachelor's degree in Computer Engineering at Sharif University of Technology.
