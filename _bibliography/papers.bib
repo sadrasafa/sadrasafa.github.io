@@ -2,6 +2,18 @@
 ---
 @INPROCEEDINGS{safadoust2024bmvc,
   author={Safadoust, Sadra and Tosi, Fabio and Güney, Fatma and Poggi, Matteo},
+  booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+  title={WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields},
+  year={2026},
+  abstract={We introduce WarpRF, a training-free general-purpose framework for quantifying the uncertainty of radiance fields. Built upon the assumption that photometric and geometric consistency should hold among images rendered by an accurate model, WarpRF quantifies its underlying uncertainty from an unseen point of view by leveraging backward warping across viewpoints, projecting reliable renderings to the unseen viewpoint and measuring the consistency with images rendered there. WarpRF is simple and inexpensive, does not require any training, and can be applied to any radiance field implementation for free. WarpRF excels at both uncertainty quantification and downstream tasks, e.g., active view selection and active mapping, outperforming any existing method tailored to specific frameworks.},
+  preview={wacv26.gif},
+  pdf={https://arxiv.org/pdf/2506.22433},
+  project={https://kuis-ai.github.io/WarpRF},
+  selected={true}}
+
+
+@INPROCEEDINGS{safadoust2024bmvc,
+  author={Safadoust, Sadra and Tosi, Fabio and Güney, Fatma and Poggi, Matteo},
   booktitle={British Machine Vision Conference (BMVC)},
   title={Self-Evolving Depth-Supervised 3D Gaussian Splatting from Rendered Stereo Pairs},
   year={2024},
@@ -9,7 +21,7 @@
   preview={bmvc24.gif},
   pdf={https://arxiv.org/pdf/2409.07456.pdf},
   project={https://kuis-ai.github.io/StereoGS},
-  arxiv={2409.07456},
+  code={https://github.com/sadrasafa/StereoGS/},
   selected={true}}
 
 
@@ -22,7 +34,7 @@
   preview={mos.gif},
   pdf={https://arxiv.org/pdf/2307.08027.pdf},
   project={https://kuis-ai.github.io/multi-object-segmentation},
-  arxiv={2307.08027},
+  code={https://github.com/sadrasafa/multi-object-segmentation},
   selected={true}}
 
 @article{safadoust2022depthpp,
@@ -33,7 +45,6 @@
   abstract={Current self-supervised monocular depth estimation methods are mostly based on estimating a rigid-body motion representing camera motion. These methods suffer from the well-known scale ambiguity problem in their predictions. We propose DepthP+P, a method that learns to estimate outputs in metric scale by following the traditional planar parallax paradigm. We first align the two frames using a common ground plane which removes the effect of the rotation component in the camera motion. With two neural networks, we predict the depth and the camera translation, which is easier to predict alone compared to predicting it together with rotation. By assuming a known camera height, we can then calculate the induced 2D image motion of a 3D point and use it for reconstructing the target image in a self-supervised monocular approach. We perform experiments on the KITTI driving dataset and show that the planar parallax approach, which only needs to predict camera translation, can be a metrically accurate alternative to the current methods that rely on estimating 6DoF camera motion.},
   preview={depthpp.png},
   pdf={https://arxiv.org/pdf/2301.02092.pdf},
-  arxiv={2301.02092},
   selected={true}
 }
 
@@ -46,7 +57,6 @@
   abstract={While stochastic video prediction models enable future prediction under uncertainty, they mostly fail to model the complex dynamics of real-world scenes. For example, they cannot provide reliable predictions for scenes with a moving camera and independently moving foreground objects in driving scenarios. The existing methods fail to fully capture the dynamics of the structured world by only focusing on changes in pixels. In this paper, we assume that there is an underlying process creating observations in a video and propose to factorize it into static and dynamic components. We model the static part based on the scene structure and the ego-motion of the vehicle, and the dynamic part based on the remaining motion of the dynamic objects. By learning separate distributions of changes in foreground and background, we can decompose the scene into static and dynamic parts and separately model the change in each. Our experiments demonstrate that disentangling structure and motion helps stochastic video prediction, leading to better future predictions in complex driving scenarios on two real-world driving datasets, KITTI and Cityscapes.},
   preview={slamp3d.gif},
   pdf={https://arxiv.org/pdf/2203.10528.pdf},
-  arxiv={2203.10528},
   selected={true}
 }
 
@@ -60,6 +70,5 @@
   preview={monodepthseg.gif},
   pdf={https://arxiv.org/pdf/2110.11275.pdf},
   project={https://kuis-ai.github.io/monodepthseg},
-  arxiv={2110.11275},
   selected={true}}
   
