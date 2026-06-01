@@ -1,0 +1,499 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Sadra Safadoust</title>
+  
+  <meta name="author" content="Sadra Safadoust">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sadra Safadoust - PhD Candidate and 3D Computer Vision Researcher at Koç University.">
+  <meta name="keywords" content="Sadra Safadoust, 3D Computer Vision, 3D Gaussian Splatting, 3D Reconstruction, NeRF, Optical Flow, Depth Estimation, Stereo Depth Estimation, computer vision, ICCV, WACV, BMVC, 3DV">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sadrasafa.github.io/">
+  <meta property="og:title" content="Sadra Safadoust | Computer Vision Researcher">
+  <meta property="og:description" content="PhD Candidate and 3D Computer Vision Researcher at Koç University.">
+  <meta property="og:image" content="https://sadrasafa.github.io/resources/prof_pic.jpg">
+  <meta property="og:image:alt" content="Portrait photo of Sadra Safadoust">
+  <meta property="og:site_name" content="Sadra Safadoust">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://sadrasafa.github.io/">
+  <meta name="twitter:title" content="Sadra Safadoust | Computer Vision Researcher">
+  <meta name="twitter:description" content="PhD Candidate and 3D Computer Vision Researcher at Koç University.">
+  <meta name="twitter:image" content="https://sadrasafa.github.io/resources/prof_pic.jpg">
+  <meta name="twitter:image:alt" content="Portrait photo of Sadra Safadoust">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://sadrasafa.github.io/">
+  
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://arxiv.org">
+  <link rel="dns-prefetch" href="https://scholar.google.com">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>"> -->
+  
+  <style>
+    /* BibTeX Inline Styles */
+    .bibtex-container {
+      display: none;
+      margin-top: 10px;
+      padding: 15px;
+      background-color: var(--muted-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      animation: slideDown 0.3s ease-out;
+    }
+    
+    .bibtex-container.show {
+      display: block;
+    }
+    
+    .bibtex-code {
+      background-color: var(--panel-bg);
+      border: 1px solid var(--code-border);
+      border-radius: 4px;
+      padding: 12px;
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 300px;
+      overflow-y: auto;
+      color: var(--text-color);
+      position: relative;
+    }
+    
+    .bibtex-copy-btn {
+      float: right;
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      border: 1px solid var(--button-border);
+      padding: 4px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 11px;
+      transition: background-color 0.3s;
+      margin-left: 10px;
+      margin-bottom: 4px;
+    }
+    
+    .bibtex-copy-btn:hover {
+      filter: brightness(0.96);
+    }
+    
+    .bibtex-copy-btn.copied {
+      background-color: #4CAF50;
+      border-color: #4CAF50;
+      color: #ffffff;
+    }
+    
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        max-height: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        max-height: 500px;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header class="site-header">
+      <div class="header-left">
+        <div class="theme-row">
+          <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+            <span>Dark Mode</span>
+          </button>
+        </div>
+
+        <p class="name-wrap" style="text-align:center">
+          <name>Sadra Safadoust</name>
+        </p>
+
+        <p>
+          I am a PhD candidate and a <a target="_blank" rel="noopener noreferrer" href="https://ai.ku.edu.tr/">KUIS AI Fellow</a> at <a target="_blank" rel="noopener noreferrer" href="https://ku.edu.tr/">Koç University</a>, advised by <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Asst. Prof. Fatma Guney</a>.
+          My research focuses on 3D computer vision, with an emphasis on novel view synthesis, depth estimation, 3D reconstruction, and uncertainty estimation.
+          I was also a visiting scholar at the <a target="_blank" rel="noopener noreferrer" href="https://www.unibo.it/en/">University of Bologna</a>, and have since been collaborating with <a target="_blank" rel="noopener noreferrer" href="https://mattpoggi.github.io/">Dr. Matteo Poggi</a> and <a target="_blank" rel="noopener noreferrer" href="https://fabiotosi92.github.io/">Dr. Fabio Tosi</a>.
+        </p>
+
+        <p>
+          I received my Master's degree in Computer Science and Engineering from Koç University and my Bachelor's degree in Computer Engineering from Sharif University of Technology.
+        <p class="profile-links" style="text-align:center">
+          <a href="mailto:ssafadoust20@ku.edu.tr" aria-label="Email Sadra Safadoust">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a> &nbsp/&nbsp
+          <a target="_blank" href="resources/sadra_safadoust_cv.pdf" rel="noopener noreferrer" aria-label="Open Sadra Safadoust CV">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+            <span>CV</span>
+          </a> &nbsp/&nbsp
+          <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=qcr-r1cAAAAJ" aria-label="Open Google Scholar profile">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            <span>Google Scholar</span>
+          </a> &nbsp/&nbsp
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadrasafa" aria-label="Open GitHub profile">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a> &nbsp/&nbsp
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sadra-safadoust/" aria-label="Open LinkedIn profile">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+        </p>
+      </div>
+
+      <div class="header-right">
+        <a href="resources/prof_pic.jpg"><img alt="profile photo" src="resources/prof_pic.jpg" class="profile-photo hoverZoomLink"></a>
+      </div>
+    </header>
+
+    <section class="research">
+      <heading>Research</heading>
+
+      <div class="papers">
+        <article class="paper">
+          <div class="paper-media">
+            <video class="preview" autoplay loop muted playsinline>
+              <source src="resources/flowit_video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="paper-details">
+            <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/FlowIt/" id="MCG_journal">
+              <papertitle>FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow</papertitle>
+            </a>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://fabiotosi92.github.io/">Fabio Tosi</a>, <a target="_blank" rel="noopener noreferrer" href="https://mattpoggi.github.io/">Matteo Poggi</a>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>
+            <br>
+            <em>arXiv preprint</em>, 2026
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2603.28759">
+                <i class="ai ai-arxiv" aria-hidden="true"></i>
+                <span>ArXiv</span>
+              </a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/FlowIt/">
+                <i class="fa-solid fa-globe-americas" aria-hidden="true"></i>
+                <span>Project Website</span>
+              </a> /
+              <a target="_blank" rel="noopener noreferrer" href="flowit.bib">
+                <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                <span>bibtex</span>
+              </a>
+            </span>
+            <p> FlowIt is a novel transformer-based global matching architecture for optical flow estimation, leveraging a hierarchical transformer design and an Optimal Transport-based flow initialization. FlowIt establish new state-of-the-art results on the Sintel benchmark, as well as zero-shot generalization performance across the Sintel, Spring, and LayeredFlow datasets.
+            </p>
+          </div>
+        </article>
+
+        <!-- Repeat article blocks for other papers -->
+
+        <article class="paper">
+          <div class="paper-media"><img src="resources/warprf.gif" alt="WarpRF preview" class="preview"></div>
+          <div class="paper-details">
+            <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/WarpRF/" id="MCG_journal">
+              <papertitle>WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields</papertitle>
+            </a>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://fabiotosi92.github.io/">Fabio Tosi</a>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a target="_blank" rel="noopener noreferrer" href="https://mattpoggi.github.io/">Matteo Poggi</a>
+            <br>
+            <em>WACV</em>, 2026
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2506.22433"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/WarpRF/"><i class="fa-solid fa-globe-americas" aria-hidden="true"></i><span>Project Website</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadrasafa/WarpRF/"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="warprf.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p> WarpRF is a training-free framework for quantifying the uncertainty of radiance fields and can be applied to any radiance field implementation. WarpRF excels at both uncertainty quantification and downstream tasks, e.g., active view selection and active mapping, outperforming any existing method tailored to specific frameworks.
+              </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-media"><img src="resources/stereogs.gif" alt="StereoGS preview" class="preview"></div>
+          <div class="paper-details">
+            <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/StereoGS/" id="MCG_journal">
+              <papertitle>Self-Evolving Depth-Supervised 3D Gaussian Splatting from Rendered Stereo Pairs</papertitle>
+            </a>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://fabiotosi92.github.io/">Fabio Tosi</a>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>, <a target="_blank" rel="noopener noreferrer" href="https://mattpoggi.github.io/">Matteo Poggi</a>
+            <br>
+            <em>BMVC</em>, 2024
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2409.07456"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/StereoGS/"><i class="fa-solid fa-globe-americas" aria-hidden="true"></i><span>Project Website</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadrasafa/StereoGS/"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="stereogs.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p> This paper addresses the poor geometric accuracy of 3D Gaussian Splatting (GS), which often produces inaccurate depth maps. It proposes a novel training strategy that incorporates depth priors from a stereo network by processing virtual stereo pairs rendered by the 3DGS itself, simultaneously improving the inferred 3D structure and the quality of novel view synthesis. 
+              </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-media"><img src="resources/mos.gif" alt="Multi-Object Segmentation preview" class="preview"></div>
+          <div class="paper-details">
+            <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/multi-object-segmentation/" id="MCG_journal"><papertitle>Multi-Object Discovery by Low-Dimensional Object Motion</papertitle></a>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>
+            <br>
+            <em>ICCV</em>, 2023
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2307.08027"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/multi-object-segmentation/"><i class="fa-solid fa-globe-americas" aria-hidden="true"></i><span>Project Website</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/sadrasafa/multi-object-segmentation/"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="mos.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p>A motion-supervised approach for multi-object segmentation that requires only a single image at test time. By modeling optical flow as a low-dimensional function of depth and object motions, a network is trained that jointly estimates object masks and depth to explain the observed flow.
+              </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-media">
+            <video class="preview" autoplay loop muted playsinline>
+              <source src="resources/depthpp.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="paper-details">
+            <papertitle>DepthP+P: Metric Accurate Monocular Depth Estimation using Planar and Parallax</papertitle>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>
+            <br>
+            <em>arXiv preprint</em>, 2023
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2301.02092"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="depthpp.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p>Self-supervised monocular depth estimation methods are typically scale-ambiguous. We show that the planar parallax formulation can resolve this limitation and train a self-supervised monocular depth estimation network producing metric outputs.
+              </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-media"><img src="resources/slamp3d.gif" alt="SLAMP-3D preview" class="preview"></div>
+          <div class="paper-details">
+            <papertitle>Stochastic Video Prediction with Structure and Motion</papertitle>
+            <br>
+            <a target="_blank" rel="noopener noreferrer" href="https://kaanakan.github.io/">Adil Kaan Akan</a>, <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>
+            <br>
+            <em>arXiv preprint</em>, 2022
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2203.10528"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="slamp3d.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p>In this paper, we assume that there is an underlying process creating observations in a video and propose to factorize it into static and dynamic components. We model the static part based on the scene structure and the ego-motion of the vehicle, and the dynamic part based on the remaining motion of the dynamic objects. By learning separate distributions of changes in foreground and background, we can decompose the scene into static and dynamic parts and separately model the change in each.</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-media"><img src="resources/monodepthseg.gif" alt="MonoDepthSeg preview" class="preview"></div>
+          <div class="paper-details">
+            <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/monodepthseg/" id="MCG_journal"><papertitle>Self-Supervised Monocular Scene Decomposition and Depth Estimation</papertitle></a>
+            <br>
+            <strong>Sadra Safadoust</strong>, <a target="_blank" rel="noopener noreferrer" href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a>
+            <br>
+            <em>3DV</em>, 2021
+            <br>
+            <span class="paper-links">
+              <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2110.11275"><i class="ai ai-arxiv" aria-hidden="true"></i><span>ArXiv</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="https://kuis-ai.github.io/monodepthseg/"><i class="fa-solid fa-globe-americas" aria-hidden="true"></i><span>Project Website</span></a> /
+              <a target="_blank" rel="noopener noreferrer" href="monodepthseg.bib"><i class="fa-solid fa-quote-right" aria-hidden="true"></i><span>bibtex</span></a>
+            </span>
+            <p>MonoDepthSeg proposes to jointly estimate depth and segment moving objects from monocular video without using any ground-truth labels. It decomposes the scene into a fixed number of components where each component corresponds to a region on the image with its own motion, and estimates both the mask and the motion of each component.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="site-footer">
+        <p style="text-align:right;font-size:small;">Website format from <a target="_blank" rel="noopener noreferrer" href="https://jonbarron.info/">Jon Barron</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function() {
+      const storageKey = 'theme-preference';
+      const body = document.body;
+      const toggle = document.getElementById('themeToggle');
+
+      if (!toggle) {
+        return;
+      }
+
+      const icon = toggle.querySelector('i');
+      const label = toggle.querySelector('span');
+
+      const applyTheme = function(isDark) {
+        body.classList.toggle('dark-mode', isDark);
+        toggle.setAttribute('aria-pressed', String(isDark));
+
+        if (label) {
+          label.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+
+        if (icon) {
+          icon.classList.toggle('fa-moon', !isDark);
+          icon.classList.toggle('fa-sun', isDark);
+        }
+
+        document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
+      };
+
+      const savedTheme = localStorage.getItem(storageKey);
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
+
+      toggle.addEventListener('click', function() {
+        const nextIsDark = !body.classList.contains('dark-mode');
+        localStorage.setItem(storageKey, nextIsDark ? 'dark' : 'light');
+        applyTheme(nextIsDark);
+      });
+    })();
+
+    // BibTeX data embedded directly
+    const bibtexData = {
+      'flowit.bib': `@article{safadoust2026flowit,
+  title={FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow},
+  author={Safadoust, Sadra and Tosi, Fabio and Poggi, Matteo and G{\"u}ney, Fatma},
+  journal={arXiv preprint arXiv:2603.28759},
+  year={2026}
+}`,
+'warprf.bib': `@inproceedings{safadoust2026warprf,
+  title={WarpRF: Multi-View Consistency for Training-Free Uncertainty Quantification and Applications in Radiance Fields},
+  author={Safadoust, Sadra and Tosi, Fabio and G{\"u}ney, Fatma and Poggi, Matteo},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={5226--5235},
+  year={2026}
+}`,
+'stereogs.bib': `@article{safadoust2024self,
+  title={Self-evolving depth-supervised 3d gaussian splatting from rendered stereo pairs},
+  author={Safadoust, Sadra and Tosi, Fabio and G{\"u}ney, Fatma and Poggi, Matteo},
+  journal={arXiv preprint arXiv:2409.07456},
+  year={2024}
+}`,
+'mos.bib': `@inproceedings{safadoust2023multi,
+  title={Multi-object discovery by low-dimensional object motion},
+  author={Safadoust, Sadra and G{\"u}ney, Fatma},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={734--744},
+  year={2023}
+}`,
+'depthpp.bib': `@article{safadoust2023depthpp,
+  title={DepthP+P: Metric Accurate Monocular Depth Estimation using Planar and Parallax}, 
+  author={Safadoust, Sadra and G{\"u}ney, Fatma},
+  journal={arXiv preprint arXiv:2301.02092}, 
+  year={2023}
+}`,
+'slamp3d.bib': `@article{akan2022stochastic,
+  title={Stochastic video prediction with structure and motion},
+  author={Akan, Adil Kaan and Safadoust, Sadra and G{\"u}ney, Fatma},
+  journal={arXiv preprint arXiv:2203.10528},
+  year={2022}
+}`,
+'monodepthseg.bib': `@inproceedings{safadoust2021self,
+  title={Self-supervised monocular scene decomposition and depth estimation},
+  author={Safadoust, Sadra and G{\"u}ney, Fatma},
+  booktitle={2021 International Conference on 3D Vision (3DV)},
+  pages={627--636},
+  year={2021},
+  organization={IEEE}
+}`
+      
+    };
+
+    // Add inline BibTeX containers after each paper
+    document.addEventListener('DOMContentLoaded', function() {
+      const bibtexLinks = document.querySelectorAll('a[href*=".bib"]');
+      
+      bibtexLinks.forEach(function(link, index) {
+        const bibFile = link.getAttribute('href');
+        const containerId = 'bibtex-' + index;
+        
+        // Create inline container
+        const container = document.createElement('div');
+        container.className = 'bibtex-container';
+        container.id = containerId;
+        
+        const codeDiv = document.createElement('div');
+        codeDiv.className = 'bibtex-code';
+        
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'bibtex-copy-btn';
+        copyBtn.textContent = 'Copy';
+        
+        const codeText = document.createTextNode(bibtexData[bibFile] || 'BibTeX not found');
+        
+        codeDiv.appendChild(copyBtn);
+        codeDiv.appendChild(codeText);
+        container.appendChild(codeDiv);
+        
+        // Find the nearest paper details container and insert at the end of it
+        const parentDetails = link.closest('.paper-details');
+        if (parentDetails) {
+          parentDetails.appendChild(container);
+        }
+        
+        // Toggle visibility on link click
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Close all other open containers
+          document.querySelectorAll('.bibtex-container').forEach(function(c) {
+            if (c.id !== containerId) {
+              c.classList.remove('show');
+            }
+          });
+          
+          // Toggle current container
+          container.classList.toggle('show');
+          
+          // Scroll into view if needed
+          if (container.classList.contains('show')) {
+            container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+        
+        // Copy functionality
+        copyBtn.addEventListener('click', function() {
+          const bibtexText = bibtexData[bibFile] || 'BibTeX not found';
+          navigator.clipboard.writeText(bibtexText).then(function() {
+            copyBtn.textContent = 'Copied!';
+            copyBtn.classList.add('copied');
+            setTimeout(function() {
+              copyBtn.textContent = 'Copy';
+              copyBtn.classList.remove('copied');
+            }, 2000);
+          }).catch(function(err) {
+            console.error('Failed to copy: ', err);
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
